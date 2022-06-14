@@ -51,5 +51,29 @@ passo a passo seguro de como usar BRANCH
 7. mergiar(unir) no código da branch temporário com a branch principal(depois que testar)
 8. git push da branch principal 
 
+usando na prática
+
+git checkout -b sistema-de-login master
+criei outro txt com nome "sistema de login"
+
+git add . para adicionar o arquivo ao novo branch
+
+git status para ver a alteração no branch selecionado
+
+git commit -m "criado sistema de login" para executar alteração
+
+se já tiver testado o código e estiver certo de que o código funciona
+
+git checkout master para ir para a branch principal
+
+git pull para não utilizar código antigo e sempre manter atualizado
+
+git merge sistema-de-login para mergiar todo o role atualizado e rodando
+
+git push pra subir pras nuvens tudo isso
+NOTA!!! Processo recomendado apenas para trabalho em equipe onde é necessário
+e alguns projetos é necessário o uso de pull request onde um programador verifica seu código
+
+ 
 
 
