@@ -1,0 +1,5 @@
+Comandos
+"git start" cria um repositório
+"git add" adiciona o arquivo ao repositório
+"git add ." adiciona todos arquivos ao repositório
+"git status" verifica arquivos no repositório
