@@ -1,19 +1,31 @@
 Comandos
 'git start' cria um repositório
+
 'git add' adiciona o arquivo ao repositório
+
 'git add .' adiciona todos arquivos ao repositório
+
 'git status' verifica arquivos no repositório
+
 'git commit -m' "commit inicial"
 -m significa mensagem
 para adicionar email e usuário do git
+
 'git config --global user.name "nome de usuário" ' 
+
  also       --global user.email "email de usuário" '
 para definir arquivos ao repositório na nuvem
+
 'git remote add origin" https://github.com/Abdul-Sarabia/projeto1-abduldev'
+
 'git push' para enviar para nuvem
+
 'git reflog' histórico de alterações
+
 'git reset --hard "código de versão do código que deseja" 
 para navegar nas versões diponíveis do código.
+
+'git branch' exibe quantos BRANCH'S o projeto possui
 
 BRANCH literalmente como nome diz "ramos" para ramificar o projeto
 exemplo um projeto que já esteja em funcionamento mas precise de continuo desenvolvimento
@@ -23,3 +35,21 @@ e só quando a branch em desenvolvimento estiver em funcionamento é feito o "ME
 1 mastert
 2 staging
 'git checkout' "staging" alterar para a BRANCH 2
+
+'git pull' traz atualizações do servidor para máquina local
+recomendado para ser feito antes de subir um "merge"
+
+'git merge' mistura os projetos
+
+passo a passo seguro de como usar BRANCH
+1. git pull branch principal
+2. gerar uma nova branch a partir da branch principal
+3. trabalhar e adicionar novas funcionalidades na nova branch que cirou
+4. finalizar o trabalho na branch temporária
+5. git checkout na branch principal
+6. git pull
+7. mergiar(unir) no código da branch temporário com a branch principal(depois que testar)
+8. git push da branch principal 
+
+
+
