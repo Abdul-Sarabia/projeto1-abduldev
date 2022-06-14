@@ -1,5 +1,25 @@
 Comandos
-"git start" cria um repositório
-"git add" adiciona o arquivo ao repositório
-"git add ." adiciona todos arquivos ao repositório
-"git status" verifica arquivos no repositório
+'git start' cria um repositório
+'git add' adiciona o arquivo ao repositório
+'git add .' adiciona todos arquivos ao repositório
+'git status' verifica arquivos no repositório
+'git commit -m' "commit inicial"
+-m significa mensagem
+para adicionar email e usuário do git
+'git config --global user.name "nome de usuário" ' 
+ also       --global user.email "email de usuário" '
+para definir arquivos ao repositório na nuvem
+'git remote add origin" https://github.com/Abdul-Sarabia/projeto1-abduldev'
+'git push' para enviar para nuvem
+'git reflog' histórico de alterações
+'git reset --hard "código de versão do código que deseja" 
+para navegar nas versões diponíveis do código.
+
+BRANCH literalmente como nome diz "ramos" para ramificar o projeto
+exemplo um projeto que já esteja em funcionamento mas precise de continuo desenvolvimento
+porém é necessário um BRANCH extra para que isso seja feito sem que o projeto pare
+e só quando a branch em desenvolvimento estiver em funcionamento é feito o "MERGE"
+
+1 mastert
+2 staging
+'git checkout' "staging" alterar para a BRANCH 2
