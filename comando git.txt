@@ -74,6 +74,8 @@ git push pra subir pras nuvens tudo isso
 NOTA!!! Processo recomendado apenas para trabalho em equipe onde é necessário
 e alguns projetos é necessário o uso de pull request onde um programador verifica seu código
 
+'touch .gitignore' cria arquivo txt que pode ser editado
+para adicionar arquivo escreve dentro do txt exemplo "segredos/"
  
 
 
